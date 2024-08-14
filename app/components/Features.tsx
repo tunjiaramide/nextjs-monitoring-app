@@ -18,7 +18,7 @@ const Features = () => {
                     <h1 className="text-[#172026] font-medium leading-12 text-2xl pt-[12px] lg:text-[42px] lg:leading-[58px]">Simplify your sales monitoring</h1>
                     <Image src={Feature1} alt="featured1" className='pt-6 sm:hidden'/>
                     <p className='text-[#36485C] py-6 lg:text-[18px]'>Stay on top of things and revamp your work process with our game-changing feature. 
-                      Get a bird's eye view with our customizable dashboard. </p>
+                      Get a birds eye view with our customizable dashboard. </p>
                     <ul className='flex flex-col gap-y-3 lg:text-[18px]'>
                       <li className='flex items-center gap-x-2 text-[#36485C]'>
                         <span><Image src={Check} alt="" /></span>
