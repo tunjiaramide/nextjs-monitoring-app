@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar";
 import Faq from "./components/Faq";
 import Pricing from "./components/Pricing";
 import CTA from "./components/CTA";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <Pricing />
         <CTA />
         </div>
+        <Footer />
     </>
     
   );

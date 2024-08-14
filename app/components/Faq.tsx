@@ -37,7 +37,7 @@ const items = [
 
 const Faq = () => {
   return (
-    <div className="flex flex-col w-full py-12 lg:flex-row lg:py-[60px] lg:gap-x-6">
+    <div id="faq" className="flex flex-col w-full py-12 lg:flex-row lg:py-[60px] lg:gap-x-6">
         <div className='lg:w-2/5 lg:py-8 lg:pr-[56px]'>
             <h3 className="text-[#EB2891] font-medium lg:text-base">Frequently Asked Questions</h3>
             <h1 className="font-medium py-4 text-2xl text-[#172026] lg:text-[42px] lg:leading-[58px]">Lets clarify some of your questions</h1>

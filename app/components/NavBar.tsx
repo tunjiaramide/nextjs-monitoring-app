@@ -8,10 +8,10 @@ import Link from "next/link";
 function NavBar() {
 
     const navLinks = [
-        { name: 'Features'},
-        { name: 'Pricing'},
-        { name: 'Enterprise'},
-        { name: 'Careers'},
+        { name: 'Features', href: 'features'},
+        { name: 'Pricing', href: 'pricing'},
+        { name: 'Faq', href: 'faq'},
+        { name: 'Careers', href: 'careers'},
     ];
 
 
@@ -21,7 +21,7 @@ function NavBar() {
                 <Image src={Logo} alt="logo"/>
                 <div className="hidden lg:flex pl-[74px] gap-x-[56px]">
                         {navLinks.map((item, index) => (
-                            <p key={index} className="font-medium text-[#36485C]"><Link href="#">{item.name}</Link></p>
+                            <p key={index} className="font-medium text-[#36485C]"><Link href={`#${item.href}`}>{item.name}</Link></p>
                         ))}
                 </div>
             </div>

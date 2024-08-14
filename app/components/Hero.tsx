@@ -7,6 +7,7 @@ import Slack from '../../public/assets/Slack.svg';
 import TrustPilot from '../../public/assets/Trustpilot.svg';
 import Cnn from '../../public/assets/CNN.svg';
 import Clutch from '../../public/assets/Clutch.svg';
+import Link from 'next/link';
 
 const Hero = () => {
   return (
@@ -18,7 +19,7 @@ const Hero = () => {
 
             <div className="flex w-full pt-8 justify-center gap-x-6">
                 <button className="bg-[#4328EB] w-1/2 text-white px-8 py-4 rounded-[4px] lg:w-fit">Try for free</button>
-                <button className="text-[#4328EB] w-1/2 flex items-center justify-center gap-x-2 lg:w-fit">View Pricing <span><Image src={BlueArrow} alt="arrow"/></span></button>
+                <button className="text-[#4328EB] w-1/2 flex items-center justify-center gap-x-2 lg:w-fit"> View Pricing <span><Image src={BlueArrow} alt="arrow"/></span></button>
             </div>
         </div>
         <div className='relative flex h-full w-full justify-center'>

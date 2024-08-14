@@ -3,7 +3,7 @@ import Check from '../../public/assets/check.svg'
 
 const Pricing = () => {
   return (
-    <div className='py-12 lg:py-[60px]'>
+    <div id="pricing" className='py-12 lg:py-[60px]'>
         <h1 className='text-[#172026] text-2xl text-center font-medium lg:text-[42px]'>Flexible plans for you</h1>
         <p className='pt-4 pb-10 text-center text-[#36485C] lg:text-[18px]'>No hidden fees!</p>
 

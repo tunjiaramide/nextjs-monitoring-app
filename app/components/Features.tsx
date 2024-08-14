@@ -10,7 +10,7 @@ import Image from 'next/image'
 
 const Features = () => {
   return (
-    <div className="flex flex-col gap-y-[56px] py-[56px] lg:py-[120px] lg:gap-y-[80px]">
+    <div id="features" className="flex flex-col gap-y-[56px] py-[56px] lg:py-[120px] lg:gap-y-[80px]">
         <div className="flex flex-col gap-x-6 sm:flex-row-reverse">
               <Image src={Feature1} alt="" className='hidden w-1/2 sm:block' />
                   <div className='sm:w-1/2 lg:py-[56px] lg:pr-[56px]'>
